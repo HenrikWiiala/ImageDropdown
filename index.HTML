@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html lang ="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Henrik Wiiala H3</title>
+  <style>
+    .div1 {
+      width: 300px;
+      height: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      border: 1px solid black;
+      
+      position: absolute;
+      top: 0px;
+      left: 0px;
+    }
+
+    .div2 {
+      width: 300px;
+      height: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      border: 1px solid black;
+
+      position: absolute;
+      top: 0px;
+      left: 485px;
+    }
+
+    .div3 {
+      width: 300px;
+      height: 100px;
+      padding: 20px;
+      box-sizing: border-box;
+      border: 1px solid black;
+
+      position: absolute;
+      top: 0px;
+      right: 0px;     
+    }
+
+    .image1 {
+    position: absolute;
+    top: 99px;
+    left: -1px;
+
+    visibility: hidden;
+    }
+
+    .image2 {
+    position: absolute;
+    top: 99px;
+    left: -1px;
+
+    visibility: hidden;
+    }
+
+    .image3 {
+    position: absolute;
+    top: 99px;
+    left: -1px;
+
+    visibility: hidden;
+    }
+
+    h3 {
+      padding: 15px 90px 15px 90px;
+      margin: auto;
+    }
+
+  .div1:hover {
+  background-color: gray;
+  color: white;
+}
+
+.div1:hover .image1 {
+  visibility: visible;
+}
+
+.div2:hover {
+  background-color: gray;
+  color: white;
+}
+
+.div2:hover .image2 {
+  visibility: visible;
+}
+
+.div3:hover {
+  background-color: gray;
+  color: white;
+}
+
+.div3:hover .image3 {
+  visibility: visible;
+}
+
+.Row {
+  position: relative;
+    width: 100%;
+
+
+}
+  </style>
+  </head>
+  <body>
+    <div class="Row">
+
+        <div class="div1">
+          <h3>Storm</h3>
+          <img class="image1" src="images/storm.jpg" alt="storm" width="300" height="300">
+        </div>
+
+        <div class="div2">
+         <h3>Blizzard</h3>
+         <img class="image2" src="images/blizzard.jpg" alt="blizzard" width="300" height="300">
+        </div>
+
+        <div class="div3">
+          <h3>Tornado</h3>
+          <img class="image3" src="images/tornado.jpg" alt="tornado" width="300" height="300">
+         </div>
+
+  </div>
+  </body>
+  </html>
